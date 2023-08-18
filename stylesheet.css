@@ -1,0 +1,189 @@
+
+*{
+
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top: 20px;
+    max-width: 1280px;
+}
+
+.hero{
+    background-color: #010047;
+    border-radius: 20px;
+    margin: 2.5rem;
+    padding: 2.5rem 3.125rem;
+}
+
+.acceltra-img{
+
+    padding-top: 20px;
+}
+
+.hero-wrapper{
+
+    display: flex;
+    text-align: right;
+}
+
+
+.nav-side{
+
+    grid-column-gap: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-side5 {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float:right;
+    padding: 14px 16px;
+    margin-left: 900px;
+}
+
+.btn-nav-1{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.btn-nav-2{
+
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 14px 16px;
+}
+
+.btn-nav-2:hover {
+
+    color: black;
+    background: white;
+}
+
+.tagline {
+    text-align: center;
+    color: white;
+    background-color: #ef401f;
+    border: 1px #000;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 3px 8px;
+    font-size: 10px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.container-large{
+
+    padding-left: 5em;
+    display: flex;
+}
+
+.ctn-1 h3{
+    text-align: left;
+    color: white;
+    font-size: 45px;
+}
+.ctn-1 p {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.ctn-1 a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+.padding{
+
+    padding-top: 20px;
+}
+
+.btn-nav-3{
+    color: #010047;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 14px 16px;
+}
+
+.btn-nav-3:hover {
+
+    color: white;
+    background: transparent;
+}
+
+.ctn1-img { 
+
+    position: relative;
+}
+
+.group h2{
+
+    text-align: center;
+}
+
+.group img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.tech-ctn{
+
+    grid-column-gap: 50px;
+    padding-top: 40px;
+    display: flex;
+}
+
+.dgt-tnsfm{
+
+    grid-row-gap: 20px;
+    flex-direction: column;
+    flex: 100%;
+    align-items: flex-start;
+    display: flex;
+}
+
+.ylw-tnsfm{
+
+    background-color: #FFFCB4;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.ylw-tnsfm img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.blue-tnsfm {
+
+    color: white;
+    background-color: #010047;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.solutions{
+
+    background-color: #FFFCB4;
+    margin-top: 250px;
+}
+
+.slt-main{
+
+    text-align: center;
+}
